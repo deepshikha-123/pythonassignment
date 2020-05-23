@@ -29,7 +29,11 @@ def multiple(n,m):
         This is a user defined function named multiple(n,m).
 
     """
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 3c884fbc9746a7f77cb8af4c512bcf04d77daccf
     if m==0:
         return 'undefined'
     if n%m==0:
@@ -95,6 +99,7 @@ def sumfun(n):
         return 1
     return n**2+sumfun(n-1)
 
+<<<<<<< HEAD
 '''Give a single command that computes the sum from above question, rely-
 ing on Python’s comprehension syntax and the built-in sum function.''' 
 
@@ -120,11 +125,17 @@ def sumfun1(k):
 
 
 
+=======
+>>>>>>> 3c884fbc9746a7f77cb8af4c512bcf04d77daccf
 
 '''Write a short Python function that takes a positive integer n and returns the sum of the squares of all the odd positive integers smaller than n.'''
 def sumoddfun(k):
     """
+<<<<<<< HEAD
     This function will return the sum of the squares of all the odd positive integers
+=======
+    This function will return the sum of the sqares of all the odd positive integers
+>>>>>>> 3c884fbc9746a7f77cb8af4c512bcf04d77daccf
     smaller than the number you entered.
 
     Parameters
@@ -139,6 +150,7 @@ def sumoddfun(k):
 
     """
     
+<<<<<<< HEAD
     
     if k==1:
         return 1
@@ -193,3 +205,6 @@ print([2**n for n in range(0,9)])
 
 
 
+=======
+    return sum(x*x for x in range (1,k) if x%2==1)
+>>>>>>> 3c884fbc9746a7f77cb8af4c512bcf04d77daccf
